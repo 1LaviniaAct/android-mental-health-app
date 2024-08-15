@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categorii">
+        <item>Filme</item>
+        <item>Seriale</item>
+        <item>Podcasturi</item>
+        <item>Cărți</item>
+        <item>Exerciții din psihologie</item>
+    </string-array>
+</resources>

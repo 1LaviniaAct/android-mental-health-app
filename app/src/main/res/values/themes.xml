@@ -1,0 +1,13 @@
+<resources>
+    <!-- Tema existentă modificată pentru a include fontul Georgia -->
+    <style name="Theme.LicentaVarianta3" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Personalizează tema aici -->
+        <item name="android:textViewStyle">@style/MyTextViewStyle</item>
+        <!-- Alte personalizări ale temei pot fi adăugate aici -->
+    </style>
+
+    <!-- Stil pentru TextView care utilizează fontul Georgia -->
+    <style name="MyTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/georgia</item>
+    </style>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="16dp">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/discover"
+                    android:scaleType="centerCrop"
+                    android:layout_margin="16dp"
+                    android:elevation="4dp"
+                    android:background="@drawable/rounded_image_background_home"
+                    android:foreground="@drawable/shadow_effect"
+                    android:onClick="onImageClicked"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:animateLayoutChanges="true" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Descoperă mai multe despre tine!"
+                    android:gravity="center"
+                    android:textSize="28sp"
+                    android:textColor="@color/black"
+                    android:layout_margin="16dp"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-medium"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Descoperă recomandări, urmărește-ți progresul și găsește suport în călătoria ta pentru sănătatea mintală."
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="sans-serif"/>
+
+                <Button
+                    android:id="@+id/butonChestionar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Completează chestionarul"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:background="@drawable/button_background"
+                    android:layout_margin="16dp"
+                    android:padding="12dp"
+                    android:elevation="6dp"
+                    android:gravity="center"
+                    android:onClick="onTrackProgressClicked"
+                    android:layout_marginBottom="10dp"/>
+
+                <Button
+                    android:id="@+id/buttonRecomandari"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vezi Recomandări"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:background="@drawable/button_background"
+                    android:layout_margin="16dp"
+                    android:padding="12dp"
+                    android:elevation="6dp"
+                    android:gravity="center"
+                    android:onClick="onDiscoverResourcesClicked"
+                    android:layout_marginBottom="10dp"/>
+
+                <Button
+                    android:id="@+id/buttonCalendar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Vezi calendarul"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:background="@drawable/button_background"
+                    android:layout_margin="16dp"
+                    android:padding="12dp"
+                    android:elevation="6dp"
+                    android:gravity="center"
+                    android:onClick="onJoinCommunityClicked"
+                    android:layout_marginBottom="20dp"/>
+                <TextView
+                    android:id="@+id/buttonJoinCommunity2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:background="@drawable/bg_login_form"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:padding="12dp"
+                    android:elevation="6dp"
+                    android:gravity="center"
+                    android:onClick="onJoinCommunityClicked"
+                    android:layout_marginVertical="10dp"
+                    android:layout_marginBottom="200px"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

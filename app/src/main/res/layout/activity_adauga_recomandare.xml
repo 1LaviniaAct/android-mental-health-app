@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    android:fillViewport="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AdaugaRecomandareFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Nume -->
+        <EditText
+            android:id="@+id/etNume"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Nume"
+            android:background="@drawable/edittext_background"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="12dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Descriere -->
+        <EditText
+            android:id="@+id/etDescriere"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Descriere"
+            android:background="@drawable/edittext_background"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:padding="12dp"
+            app:layout_constraintTop_toBottomOf="@id/etNume"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tvCategorie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categorie"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/etDescriere"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <!-- Spinner Categorie -->
+        <Spinner
+            android:id="@+id/spinnerCategorie"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_background"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:entries="@array/categorii"
+            app:layout_constraintTop_toBottomOf="@+id/tvCategorie"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Spinner Categorie Rosenberg -->
+        <Spinner
+            android:id="@+id/spinnerCategorieRosenberg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_background"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:entries="@array/categoriiRosenberg"
+            app:layout_constraintTop_toBottomOf="@id/spinnerCategorie"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"
+            style="@style/SpinnerTextWhite"/>
+
+        <TextView
+            android:id="@+id/tvCategorieStima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nivel stima de sine"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerCategorieRosenberg"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <!-- Spinner Categorie Stima -->
+        <Spinner
+            android:id="@+id/spinnerCategorieStima"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_background"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:entries="@array/categoriiRosenberg"
+            app:layout_constraintTop_toBottomOf="@+id/tvCategorieStima"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tvCategorieDeznadejde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nivel deznadejde"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerCategorieStima"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <!-- Spinner Categorie Deznadejde -->
+        <Spinner
+            android:id="@+id/spinnerCategorieDeznadejde"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_background"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:entries="@array/categoriiRosenberg"
+            app:layout_constraintTop_toBottomOf="@+id/tvCategorieDeznadejde"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/tvCategorieEmotivitate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nivel emotivitate"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerCategorieDeznadejde"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp" />
+
+        <!-- Spinner Categorie Emotivitate -->
+        <Spinner
+            android:id="@+id/spinnerCategorieEmotivitate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_background"
+            android:padding="12dp"
+            android:textSize="16sp"
+            android:entries="@array/categoriiRosenberg"
+            app:layout_constraintTop_toBottomOf="@+id/tvCategorieEmotivitate"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Button Selectare Imagine -->
+        <Button
+            android:id="@+id/btnSelecteazaImagine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selectează imagine"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:background="@drawable/button_background"
+            android:paddingStart="24dp"
+            android:paddingEnd="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/spinnerCategorieEmotivitate"
+            android:layout_marginTop="24dp"/>
+
+        <!-- ImageView pentru afișarea imaginii selectate -->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="327dp"
+            android:layout_height="133dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnSelecteazaImagine" />
+
+        <!-- Button pentru adăugarea recomandării -->
+        <Button
+            android:id="@+id/btnAdauga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:background="@drawable/button_background"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:text="Adaugă"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageView" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/btnAdauga"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

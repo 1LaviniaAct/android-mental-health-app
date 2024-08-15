@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#F8F8FF"
+    tools:context=".EmotivitateActivity">
+
+
+    <TextView
+        android:id="@+id/question_test3"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/this_will_be_the_question1"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:layout_above="@id/choices_layout3"/>
+    <LinearLayout
+        android:id="@+id/choices_layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/da"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/roziu"
+            android:text="@string/da"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/nu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/roziu"
+            android:text="@string/nu"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/choices_layout3"
+        android:layout_marginTop="40dp"
+        android:text="@string/next" />
+
+</RelativeLayout>

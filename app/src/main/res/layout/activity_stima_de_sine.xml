@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#F8F8FF"
+    tools:context=".StimaDeSineActivity">
+
+    
+    <TextView
+        android:id="@+id/question_test1"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/this_will_be_the_question1"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:layout_above="@id/choices_layout"/>
+    <LinearLayout
+        android:id="@+id/choices_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/dezacord_puternic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/roziu"
+            android:text="@string/dezacord_puternic"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/partial_dezacord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/roziu"
+            android:text="@string/partial_in_dezacord"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/partial_acord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/roziu"
+            android:text="@string/partial_de_acord"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/acord_puternic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/roziu"
+            android:text="@string/acord_puternic"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/choices_layout"
+        android:layout_marginTop="40dp"
+        android:text="@string/next" />
+
+</RelativeLayout>

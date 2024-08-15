@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8FF"
+    tools:context=".AboutUsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:paddingBottom="106dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textSize="36sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Lead Developer -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:background="@drawable/rounded_corner_background"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/baseline_co_present_24"
+                android:scaleType="centerCrop"
+                android:contentDescription="Psychologist Advisor"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="25dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lavinia Acatrinei"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/lavender"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lead Developer"
+                    android:textStyle="italic"
+                    android:textSize="18sp"
+                    android:textColor="@color/black"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lavinia este studentă și este pasionată de sănătatea mintală și și-a dorit să creeze o aplicație prin care să poată ajuta oamenii să obțină recomandări rapide pentru a-și ameloria starea de spirit."
+                    android:textSize="16sp"
+                    android:textColor="@color/dark_gray"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Designer -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:background="@drawable/rounded_corner_background"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/baseline_diamond_24"
+                android:scaleType="centerCrop"
+                android:contentDescription="Psychologist Advisor"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="25dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Despre aplicație"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/lavender"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Aplicația noastră își propune să monitorizeze și să recomande activități pentru îmbunătățirea sănătății mentale. Include funcții precum urmărirea stării de spirit, recomandări personalizate bazate pe datele utilizatorilor și acces la resurse de sănătate mintală."
+                    android:textSize="16sp"
+                    android:textColor="@color/dark_gray"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Psychologist Advisor -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="12dp"
+            android:background="@drawable/rounded_corner_background"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/baseline_auto_graph_24"
+                android:scaleType="centerCrop"
+                android:contentDescription="Psychologist Advisor"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="25dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Scop și viziune"
+                    android:textStyle="bold"
+                    android:textSize="24sp"
+                    android:textColor="@color/lavender"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ne dorim să eliminăm stigmatul asociat problemelor de sănătate mintală și să facilităm conversații deschise și susținătoare, oferind fiecărui individ uneltele necesare pentru a-și gestiona sănătatea mintală eficient, într-un mediu sigur și înțelegător."
+                    android:textSize="16sp"
+                    android:textColor="@color/dark_gray"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            android:textSize="16sp"
+            android:layout_marginBottom="10dp"
+            android:justificationMode="inter_word"
+            android:textColor="#F8F8FF"/>
+    </LinearLayout>
+</ScrollView>

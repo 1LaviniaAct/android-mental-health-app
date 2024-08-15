@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8FF"
+    android:id="@+id/fragment_containerStimaInfo"
+    tools:context=".StimaInfoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="#F3F4F6">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewStimaInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:gravity="center">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="#FFDAB9"> <!-- Pink background -->
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Despre empatie"
+                        android:textSize="24sp"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="      Empatia este abilitatea de a înțelege și de a simți ceea ce simte altă persoană, să te pui în locul lor și să te conectezi emoțional cu experiența lor. Este capacitatea de a percepe și de a înțelege emoțiile și perspectivele altora fără a le împărtăși în mod necesar."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word"/>
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cum ne dăm seama cum se manifestă empatia:"
+                        android:textSize="16sp"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@color/white" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Simțirea emoțiilor altora: Empatia ne permite să simțim și să recunoaștem emoțiile altor persoane, să fim sensibili la stările lor emoționale."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Perspectiva-taking (preluarea perspectivei): Capacitatea de a vedea lucrurile din perspectiva celorlalți și de a înțelege modul în care se simt sau ce gândesc ei într-o anumită situație."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Reacții compătimitoare și acțiuni orientate către ajutor: Empatia poate duce la comportamente compătimitoare și la dorința de a ajuta pe cei aflați în dificultate sau în suferință."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+                <!-- Metode de imbunatatire -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Recomandări de exerciții pentru a lucra la empatia noastră:"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1. Ascultarea activă: Practică să fii un ascultător activ, concentrându-te cu atenție pe ceea ce spune și simte persoana cu care vorbești."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2. Perspectiva-taking: Încercați să vă puneți în locul altora și să vedeți lumea din perspectiva lor, gândindu-vă la modul în care ar putea fi simțirile și experiențele lor."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3. Exerciții de vizualizare: Încercați să vă imaginați viața și experiențele altora, încercând să vă conectați cu emoțiile pe care le-ar putea avea în diferite situații."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="4. Practicarea compasiunii: Găsiți modalități de a oferi sprijin și ajutor celor din jur, chiar și prin acțiuni mici sau gesturi de bunăvoință."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+                <!-- Filme, seriale, podcast-uri -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Recomandări de filme, seriale, podcast-uri despre empatie:"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Filme: The Green Mile, Schindler's List, The Pursuit of Happiness."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Seriale: This Is Us, The Crown, Atypical"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/podcastEmpatie"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Podcast-uri: Brené Brown: Unlocking Us, The Kindness Podcast, TED Radio Hour"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+
+</FrameLayout>

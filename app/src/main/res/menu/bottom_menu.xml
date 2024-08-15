@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+
+    <item
+        android:id="@+id/shorts"
+        android:title="About us"
+        android:icon="@drawable/baseline_auto_awesome_24"
+        />
+
+    <item
+        android:title=""/>
+
+    <item
+        android:id="@+id/subscriptions"
+        android:title="Info"
+        android:icon="@drawable/baseline_info_24" />
+
+    <item
+        android:id="@+id/library"
+        android:title="Profilul meu"
+        android:icon="@drawable/baseline_person_24" />
+
+
+</menu>

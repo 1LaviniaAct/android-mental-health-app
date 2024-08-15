@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextPosition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Position"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:lines="3" />
+
+    <EditText
+        android:id="@+id/editTextStima"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Punctaj Stima"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextDeznadejde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Punctaj Deznadejde"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextEmotivitate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Punctaj Emotivitate"
+        android:inputType="number" />
+
+</LinearLayout>

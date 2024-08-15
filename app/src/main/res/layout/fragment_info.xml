@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8FF">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <!-- ImageView-uri aranjate pentru a evita suprapunerea și pentru a fi vizibile -->
+        <ImageView
+            android:id="@+id/imageViewCloudTop1"
+            android:layout_width="145dp"
+            android:layout_height="154dp"
+            android:src="@drawable/norisor_mov"
+            android:layout_gravity="top|end"/>
+
+        <ImageView
+            android:id="@+id/imageViewCloudTop2"
+            android:layout_width="110dp"
+            android:layout_height="326dp"
+            android:layout_gravity="top|start"
+            android:src="@drawable/norisor_mov" />
+
+
+        <ImageView
+            android:id="@+id/imageViewCloudTop3"
+            android:layout_width="wrap_content"
+            android:layout_height="379dp"
+            android:layout_gravity="top|center"
+            android:src="@drawable/norisor_mov" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            android:layout_gravity="center"
+            android:layout_margin="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:gravity="center">
+
+                <!-- Îmbunătățirea contrastului și vizibilității pentru secțiunile din CardView -->
+                <!-- Adăugarea secțiunilor necesare și a design-ului specific aplicației tale -->
+                <!-- Self-esteem Section -->
+                <LinearLayout
+                    android:id="@+id/layoutStima"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="#FFFACD"> <!-- Pink background -->
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baseline_emoji_nature_24"
+                        android:contentDescription="@string/despre_stima_de_sine" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/despre_stima_de_sine"
+                        android:layout_marginTop="1dp" />
+                </LinearLayout>
+
+                <!-- Secțiuni cu detalii și separatoare -->
+                <!-- Câte o secțiune pentru auto-stimă, depresie și empatie -->
+                <!-- Detaliile pentru fiecare sunt simplificate pentru claritate -->
+                <!-- Border line -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#FFC0CB" />
+
+                <!-- Depression Section -->
+                <LinearLayout
+                    android:id="@+id/layoutDepresie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="#FFC0CB "> <!-- Orange background -->
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baseline_heart_broken_24" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Despre deznădejde și depresie"
+                        android:layout_marginTop="1dp" />
+                </LinearLayout>
+
+                <!-- Border line -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="#FFDAB9" />
+
+                <!-- Empathy Section -->
+                <LinearLayout
+                    android:id="@+id/layoutEmpatie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="#FFDAB9"> <!-- Green background -->
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/baseline_handshake_24"
+                        android:contentDescription="@string/despre_empatie" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="@string/despre_empatie"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- CardView plasat central în FrameLayout -->
+
+        <ImageView
+            android:id="@+id/imageViewCloudTop4"
+            android:layout_width="129dp"
+            android:layout_height="251dp"
+            android:layout_gravity="bottom|end"
+            android:src="@drawable/norisor_mov" />
+
+        <ImageView
+            android:id="@+id/imageViewCloudTop5"
+            android:layout_width="109dp"
+            android:layout_height="389dp"
+            android:layout_gravity="bottom|center"
+            android:src="@drawable/norisor_mov" />
+
+        <ImageView
+            android:id="@+id/imageViewCloudTop6"
+            android:layout_width="74dp"
+            android:layout_height="264dp"
+            android:layout_gravity="bottom|start"
+            android:src="@drawable/norisor_mov" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<!-- shadow_effect.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#33000000" /> <!-- Opacitate 20% pentru o umbră subtilă -->
+</shape>

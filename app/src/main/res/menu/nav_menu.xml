@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home"/>
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/baseline_person_24"
+            android:title="Profil"/>
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/baseline_assignment_24"
+            android:title="Chestionar"/>
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/baseline_assignment_24"
+            android:title="Calendar"/>
+
+        <item
+            android:id="@+id/nav_recomandari"
+            android:icon="@drawable/baseline_recomandari_24"
+            android:title="Recomandari"/>
+
+        <item
+            android:id="@+id/nav_recomandari_proprii"
+            android:icon="@drawable/baseline_recomandari_24"
+            android:title="Recomandari Proprii"/>
+
+        <item
+            android:id="@+id/nav_adauga_recomandare"
+            android:icon="@drawable/add_recomandare"
+            android:title="Add Recomandare"/>
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/baseline_auto_awesome_24"
+            android:title="About Us"/>
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/baseline_logout_24"
+                android:title="Logout"/>
+        </menu>
+
+    </item>
+
+</menu>

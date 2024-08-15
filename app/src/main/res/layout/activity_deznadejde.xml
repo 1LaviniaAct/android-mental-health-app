@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#F8F8FF"
+    tools:context=".DeznadejdeActivity">
+
+
+    <TextView
+        android:id="@+id/question_test2"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/this_will_be_the_question"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        android:layout_above="@id/choices_layout2"/>
+
+    <LinearLayout
+        android:id="@+id/choices_layout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/adevarat_deznadejde"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/roziu"
+            android:text="@string/adevarat"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/fals_deznadejde"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:backgroundTint="@color/roziu"
+            android:text="@string/fals"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/next_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/choices_layout2"
+        android:layout_marginTop="40dp"
+        android:text="@string/next" />
+
+</RelativeLayout>

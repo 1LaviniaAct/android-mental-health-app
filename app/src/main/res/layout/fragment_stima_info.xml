@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8FF"
+    android:id="@+id/fragment_containerStimaInfo"
+    tools:context=".StimaInfoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="#F3F4F6">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewStimaInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:gravity="center">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="#FFFACD"> <!-- Pink background -->
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Despre stima de sine"
+                        android:textSize="24sp"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="      Stima de sine este percepția generală și evaluarea pe care o avem despre propriile calități, abilități și valoare ca persoane. Este modul în care ne vedem și ne evaluăm pe noi înșine în diverse aspecte ale vieții, inclusiv în relații, carieră, sănătate și succesul general. O stima de sine sănătoasă este esențială pentru bunăstarea noastră mentală și emoțională."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word"/>
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cum ne dăm seama care e stima noastră de sine:"
+                        android:textSize="16sp"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/white" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Există mai multe semne care pot indica nivelul de stima de sine al unei persoane, cum ar fi:"
+                        android:textSize="16sp"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@color/white" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Auto-critica excesivă sau auto-judecata negativă"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Lipsa încrederii în propria persoană și în propriile capacități"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Compararea excesivă cu alții"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Evitarea riscului sau a situațiilor noi din frica eșecului sau a respingerii"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Dependenta de aprobarea și validarea altora"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Tendința de a se autosabota sau de a se auto-limita."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+            <!-- Metode de imbunatatire -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Metode de îmbunătățire a stimei de sine:"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="     Pentru a îmbunătăți stima de sine, este important să lucrăm la construirea unei imagini pozitive despre noi înșine. Unele metode eficiente includ:"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="#000"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Practicarea auto-îngrijirii și auto-compassiunii"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Setarea și atingerea obiectivelor personale"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Lucrul la dezvoltarea abilităților și a talențelor personale"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Exprimarea recunoștinței și aprecierii pentru propria viață"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Lucrul la acceptarea și iertarea sinelui pentru greșeli trecute"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Căutarea suportului și a încurajării din partea celor din jur"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+            <!-- Exercitii si recomandari -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recomandări de exerciții pentru a ne îmbunătăți stima de sine"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1. Jurnalul de recunoștință: În fiecare zi, notează cel puțin trei lucruri pentru care ești recunoscător în viața ta."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2.Afirmații pozitive: Repetă zilnic afirmații pozitive despre tine însuți, cum ar fi: Sunt suficient așa cum sunt!, Am încredere în propriile mele capacități!"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3. Gestionarea criticilor interioare: Identifică și înlocuiește gândurile negative cu gânduri pozitive și realiste despre tine însuți."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="4. Explorarea și încurajarea propriei creativități: Dedicați timp pentru a vă exprima creativitatea prin artă, scriere sau alte activități creative."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+
+            <!-- Filme, seriale, podcast-uri -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Recomandări de filme, seriale, podcast-uri pentru stima de sine:"
+                android:textSize="16sp"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:textColor="#000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Filme: The Pursuit of Happyness, The King's Speech, Good Will Hunting."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Seriale: Queer Eye, Ted Lasso, The Marvelous Mrs. Maisel."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/podcastStima"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Podcast-uri: The Confidence Chronicles, The Happiness Lab, The Mindset Mentor"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/white"/>
+        </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+
+</FrameLayout>

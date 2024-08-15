@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F8FF"
+    android:id="@+id/fragment_containerStimaInfo"
+    tools:context=".StimaInfoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="#F3F4F6">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardViewStimaInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:gravity="center">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:background="#FFC0CB "> <!-- Pink background -->
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Despre deznădejde și depresie"
+                        android:textSize="24sp"
+                        android:textColor="#000"
+                        android:textAlignment="center"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="  Deznădejdea este o stare emoțională caracterizată prin lipsa speranței sau a motivării. Persoanele care experimentează deznădejdea pot simți că nu mai există soluții pentru problemele lor și pot avea dificultăți în a găsi bucurie în activități pe care anterior le-au considerat plăcute sau satisfăcătoare."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="      Depresia este o afecțiune medicală caracterizată prin persistența sentimentelor de tristețe, lipsă de energie, pierderea interesului pentru activități obișnuite și alte simptome asociate care pot afecta capacitatea de funcționare zilnică a unei persoane."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word"/>
+                </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/white" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Cum ne dăm seama dacă simțim deznădejde:"
+                        android:textSize="16sp"
+                        android:textColor="#000"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="@color/white" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Sentimente de lipsă de speranță și lipsă de viitor."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" - Pierderea interesului sau a plăcerii în activități pe care anterior le-am apreciat."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Schimbări în apetit și somn, cum ar fi pierderea poftei de mâncare sau insomnia."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Sentimente de inutilitate sau de vinovăție excesivă."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Gânduri despre moarte sau suicid."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+                <!-- Metode de imbunatatire -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Metode de îmbunătățire a stării de spirit, care să reducă deznădejdea:"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:textStyle="bold"
+                        android:textColor="#000"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Terapia cognitiv-comportamentală (TCC) pentru a identifica și schimba gândurile și comportamentele negative."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Medicamentația prescrisă de un profesionist medical, cum ar fi antidepresivele."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Exercițiul fizic regulat pentru a elibera endorfine și a îmbunătăți starea de spirit."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Practicarea tehnicii de relaxare, cum ar fi meditația sau respirația profundă."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Socializarea și petrecerea timpului cu persoanele dragi"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+                <!-- Exercitii si recomandari -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Recomandări de exerciții pentru a ne îmbunătăți stările de deznădejde sau depresie"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="1. Jurnalul de recunoștință: În fiecare zi, notează cel puțin trei lucruri pentru care ești recunoscător în viața ta."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2.Afirmații pozitive: Repetă zilnic afirmații pozitive despre tine însuți, cum ar fi: Sunt suficient așa cum sunt!, Am încredere în propriile mele capacități!"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3. Exerciții de respirație și meditație: Petrece câteva minute în fiecare zi pentru a te concentra pe respirație și a-ți liniști mintea."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="4. Conectarea cu ceilalți: Caută suport și interacționează cu prietenii sau familia."
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+
+
+                <!-- Filme, seriale, podcast-uri -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Recomandări de filme, seriale, podcast-uri despre deznădejde și depresie:"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"
+                    android:textColor="#000"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Filme: It's Kind of a Funny Story, Silver Linings Playbook, Inside Out"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Seriale: BoJack Horseman, This Is Us, 13 Reasons Why"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/podcastDeznadejde"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="- Podcast-uri: The Hilarious World of Depression, The Mental Illness Happy Hour,The Happiness Lab"
+                        android:textSize="16sp"
+                        android:layout_marginBottom="10dp"
+                        android:justificationMode="inter_word" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"
+                    android:justificationMode="inter_word"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+
+</FrameLayout>
